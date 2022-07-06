@@ -1,0 +1,32 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "teoria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadoblack/teoriaNode.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Edgar Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadoblack/teoriaNode/issues"
+  },
+  "homepage": "https://github.com/shadoblack/teoriaNode#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
